@@ -1,0 +1,392 @@
+@media(max-width: 1300px) {
+	.faq h2 {
+		margin: 0 0 10px 0;
+	}
+	.player__control_text h3 {
+		font-size: 1.6rem;
+		margin: 0;
+	}
+	.player__control_text p {
+		padding-top: 10px;
+		margin: 0;
+		font-size: 1.4rem;
+	}
+}
+@media(max-width: 1200px) {
+	.reviews__section_text {
+		margin: 15px 0;
+		font-size: 1.7rem;
+	}
+	.player__previous, .player__play, .player__next {
+		scale: 0.9;
+	}
+}
+
+@media(max-width: 1200px) {
+	.faq h2 {
+		font-size: 1.5rem;
+	}
+	.faq h3 {
+		font-size: 1.2rem;
+	}
+	.faq p {
+		font-size: 1.15rem;
+	}
+	.player__control_text {
+		padding-top: 5px;
+	}
+	.questions {
+		padding: 70px 0;
+	}
+	.questions__wrapper h3 {
+		font-size: 2.5rem;
+	}
+	.questions__answers_wrapper h4 {
+		font-size: 1.8rem;
+	}
+	.questions__answers_wrapper p {
+		font-size: 1.6rem;
+	}
+}
+
+@media (max-width: 1000px) {
+	.faq h2 {
+		font-size: 1.3rem;
+		margin: 0 0 5px 0;
+	}
+	.faq h3 {
+		font-size: 1.15rem;
+	}
+	.faq p {
+		font-size: 1.1rem;
+	}
+	.player__wrapper {
+		width: 70%;
+	}
+	.player__control_text h3 {
+		font-size: 1.4rem;
+	}
+	.player__control_text p {
+		font-size: 1.2rem;
+	}
+	.player__previous, .player__play, .player__next {
+		scale: 0.85;
+	}
+	.discover {
+		row-gap: 0;
+	}
+	.discover_content {
+		width: auto;
+	}
+	.discover_content h2 {
+		margin-top: 0;
+		font-size: 1.8rem;
+	}
+	.discover_content p {
+		font-size: 1.2rem;
+		margin: 0;
+	}
+	.reviews {
+		height: 250px;
+	}
+	.reviews__section {
+		padding: 10px;
+	}
+	.reviews__section_text {
+		margin: 5px 0;
+		font-size: 1.5rem;
+	}
+	.reviews__section_signature {
+		margin: 5px 0;
+	}
+	.questions {
+		padding: 50px 0;
+	}
+	.questions__wrapper h3 {
+		font-size: 2.2rem;
+	}
+	.questions__answers_wrapper h4 {
+		font-size: 1.6rem;
+	}
+	.questions__answers_wrapper p {
+		font-size: 1.4rem;
+	}
+}
+
+@media (max-width: 900px) {
+	.player__wrapper {
+		width: 80%;
+	}
+	.player__playlist_close {
+		top: -5px;
+		font-size: 4.5rem;
+	}
+	.songs_list {
+		font-size: 1.1rem;
+	}
+}
+
+@media (max-width: 850px) {
+	.questions {
+		padding: 40px 0;
+	}
+	.questions__wrapper h3 {
+		font-size: 2rem;
+	}
+	.questions__answers_wrapper h4 {
+		font-size: 1.4rem;
+	}
+	.questions__answers_wrapper p {
+		font-size: 1.15rem;
+	}
+}
+
+@media (max-width: 800px) {
+	.player__progress_timestamp {
+		font-size: 1.2rem;
+	}
+	.player__progress_left, .player__progress_right {
+		top: -16px;
+	}
+	.reviews {
+		padding: 20px 0;
+		height: auto;
+	}
+	.reviews__wrapper {
+		flex-direction: column;
+		align-items: center;
+		row-gap: 20px;
+	}
+	.reviews__section {
+		width: 70%;
+	}
+}
+
+@media (max-width: 750px) {
+	.discover_wrapper {
+		width: 85%;
+	}
+}
+
+@media(max-width: 700px) {
+	.player__wrapper {
+		width: 90%;
+	}
+	.questions__answers {
+		flex-direction: column;
+		align-items: center;
+	}
+	.questions__answers_wrapper {
+		width: 80%;
+	}
+	.questions__wrapper h3 {
+		font-size: 1.8rem;
+	}
+}
+
+@media (max-width: 600px) {
+	.faq h2 {
+		font-size: 1.1rem;
+		margin: 0 0 1px 0;
+	}
+	.faq h3 {
+		font-size: 1rem;
+	}
+	.faq p {
+		font-size: 0.9rem;
+	}
+	.player__previous, .player__play, .player__next {
+		scale: 0.8;
+	}
+	.player__control_buttons {
+		column-gap: 25px;
+	}
+	.player__play {
+		width: 70px;
+		height: 70px;
+	}
+	.player__play_front {
+		width: 33px;
+		top: 17px;
+		left: 24px;
+	}
+	.player__play_back {
+		left: 0;
+		top: -6px;
+		width: 75px;
+		height: 75px;
+	}
+	.player__play_round {
+		left: -6px;
+		top: -9px;
+		width: 75px;
+		height: 75px;
+	}
+	.player__previous_next_back {
+		width: 55px;
+		height: 55px;
+	}
+	.player__previous_next_round {
+		width: 55px;
+		height: 55px;
+	}
+	.player__previous_front {
+		width: 27px;
+		top: 14px;
+		left: 10px;
+	}
+	.player__next_front {
+		width: 27px;
+		top: 14px;
+		left: 16px;
+	}
+	.player__control_text h {
+		font-size: 1.3rem;
+	}
+	.player__control_text p {
+		font-size: 1.15rem;
+		padding-top: 5px;
+	}
+	.songs_list {
+		font-size: 1rem;
+		padding-left: 30px;
+	}
+	.songs_list li {
+		padding: 1px 0;
+	}
+	.player__progress_left, .player__progress_right {
+		top: -12px;
+	}
+	.player__progress_right {
+		right: 15px;
+	}
+}
+
+@media (max-width: 550px) {
+	.player__progress_timestamp {
+		font-size: 1.1rem;
+	}
+}
+
+@media (max-width: 520px) {
+	.player__wrapper {
+		width: 100%;
+	}
+	.player__play {
+		width: 50px;
+		height: 50px;
+	}
+	.player__play_front {
+		width: 20px;
+		top: 15px;
+		left: 16px;
+	}
+	.player__play_back {
+		top: -1px;
+		width: 50px;
+		height: 50px;
+	}
+	.player__play_round {
+		top: -5px;
+		width: 50px;
+		height: 50px;
+	}
+	.player__previous_next_back {
+		width: 40px;
+		height: 40px;
+	}
+	.player__previous_next_round {
+		width: 40px;
+		height: 40px;
+	}
+	.player__previous_front {
+		width: 18px;
+		top: 11px;
+		left: 9px;
+	}
+	.player__next_front {
+		width: 18px;
+		top: 11px;
+		left: 11px;
+	}
+	.player__control_text h3 {
+		font-size: 1rem;
+	}
+	.player__control_text p {
+		font-size: 0.8rem;
+		padding-top: 5px;
+	}
+	.player__control_text {
+		padding-top: 2px;
+	}
+	.player__playlist {
+		border-bottom-left-radius: 0;
+	}
+	.player__playlist_delete {
+		width: 11px;
+		padding-left: 5px;
+	}
+	.player__playlist_close {
+		top: -2px;
+		right: 10px;
+		font-size: 3.5rem;
+	}
+	.songs_list {
+		padding-left: 20px;
+		float: left;
+		width: 175px;
+		font-size: 0.8rem;
+	}
+	.songs_list li {
+		padding: 0;
+	}
+}
+
+@media (max-width: 500px) {
+	.discover_wrapper {
+		column-gap: 5%;
+	}
+	.discover_content h2 {
+		font-size: 1.4rem;
+	}
+	.discover_content p {
+		font-size: 1rem;
+	}
+}
+
+@media(max-width: 400px) {
+	.faq h2 {
+		font-size: 1rem;
+		margin: 0 0 5px 0;
+	}
+	.faq h3 {
+		font-size: 1rem;
+	}
+	.faq p {
+		font-size: 0.8rem;
+	}
+	.player__control_buttons {
+		row-gap: 0;
+	}
+	.player__progress_timestamp {
+		font-size: 0.8rem;
+		top: -8px;
+	}
+	.player__progress_right {
+		right: 5px;
+	}
+	.player__control_text {
+		height: 30%;
+	}
+	.player__control_list {
+		width: 15px;
+		height: 15px;
+	}
+	.player__control_random {
+		width: 15px;
+		height: 15px;
+	}
+	.player__control_adds {
+		font-size: 2rem;
+	}
+}

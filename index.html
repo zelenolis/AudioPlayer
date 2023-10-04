@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>ORO Player</title>
+	<link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="mobile.css">
+</head>
+<body>
+	<header>
+		<h1>ORO player v. 1.1.0</h1>
+		<p class="faqLogo">FAQ</p>
+		<div class="faq">
+			<h2>F.A.Q.</h2>
+			<div class="faq__wrapper">
+				<div class="faq__wrapper_box">
+					<h3>What it is?</h3>
+					<p>It is a task for rs-school involving the creation of an audio player. The goal is to produce a functional audio player that meets the desired requirements and user needs, whether for personal use, educational purposes, or entertainment.</p>
+				</div>
+				<div class="faq__wrapper_box">
+					<h3>What can it do?</h3>
+					<p>You can play your mp3 audiofiles. Organize or customize your playlist. Listen your music everywhere</p>
+				</div>
+				<div class="faq__wrapper_box">
+					<h3>Will this application be improved?</h3>
+					<p>Absolutely, we are committed to continuously improving this application. You can expect regular updates and improvements to make your experience even better in the future.</p>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section class="logo">
+		<div class="logo__container">
+			<div class="logo__first_front"></div>
+			<div class="logo__first_back"></div>
+		</div>
+		<div class="logo__container">
+			<div class="logo__middle_front1"></div>
+			<div class="logo__middle_back"></div>
+			<div class="logo__middle_cut"></div>
+			<div class="logo__middle_front2"></div>
+		</div>
+		<div class="logo__container">
+			<div class="logo__last_front1"></div>
+			<div class="logo__last_back"></div>
+			<div class="logo__last_cut"></div>
+			<div class="logo__last_front2"></div>
+		</div>
+	</section>
+	
+	<section class="discover">
+		<div class="discover_wrapper">
+			<div class="discover_content">
+				<h2>Discover the Ultimate Web Music Player</h2>
+				<p>Say goodbye to boring apps! Enter a world of musical bliss with ORO player, the most innovative music player around, designed for audiophiles and casual listeners alike.</p>
+			</div>
+			<img class="grayscale" src="assets/back-cover.jpg">
+		</div>
+		<div class="discover_wrapper">
+			<img class="grayscale" src="assets/back-cover-2.jpg">
+			<div class="discover_content">
+				<h2>Customize your Listening Experience</h2>
+				<p>Unlock the secret to the perfect playlist with our advanced algorithms and limitless customization options. Your ears won’t believe the difference!</p>
+			</div>
+		</div>
+	</section>
+	<section class="reviews">
+		<div class="reviews__wrapper">
+			<div class="reviews__section">
+				<img src="assets/avatar1.jpeg">
+				<p class="reviews__section_text">This player changed the way I listen to music forever!</p>
+				<p class="reviews__section_signature">Cynthia Wagner</p>
+			</div>
+			<div class="reviews__section">
+				<img src="assets/avatar3.jpeg">
+				<p class="reviews__section_text">The customization options are mind-blowing.</p>
+				<p class="reviews__section_signature">Luther Alvarez</p>
+			</div>
+			<div class="reviews__section">
+				<img src="assets/avatar2.jpeg">
+				<p class="reviews__section_text">Can’t imagine going back to my old music player.</p>
+				<p class="reviews__section_signature">Gianna Holmes</p>
+			</div>
+		</div>
+	</section>
+	<section class="questions">
+		<div class="questions__wrapper">
+			<h3>Burning Questions?</h3>
+			<div class="questions__answers">
+				<div class="questions__answers_wrapper">
+					<h4>Is ORO player available on all devices?</h4>
+					<p>Absolutely! ORO player is designed for all platforms—desktop, tablet, and mobile—so you can take your music wherever you go.</p>
+				</div>
+				<div class="questions__answers_wrapper">
+					<h4>How much does the ORO player cost?</h4>
+					<p>This player is completely free to use and can be distributed under the permissive MIT license.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<div class="footer__wrapper">
+			<div class="footer__links">
+				<a href="https://github.com/zelenolis"><img src="assets/git.png" alt="github">zelenolis</a>
+			</div>
+			<div class="footer_year">
+				<p>&#169 2023 ORO player - MIT License</p>
+			</div>
+		</div>
+	</footer>
+	<section class="player">
+		<audio id="audio" src="assets/Monkey Doo - People are strange.mp3"></audio>
+		<div class="player__wrapper">
+			<div class="player__cover_wrapper">
+				<img class="player__cover" src="assets/monkey.jpg" alt="audio cover">
+			</div>
+			<div class="player__control">
+				<div class="player__control_buttons">
+					<div class="player__previous">
+						<img class="player__previous_front" src="assets/previous.png" alt="previous">
+						<div class="player__previous_next_back"></div>
+						<div class="player__previous_next_round"></div>
+					</div>
+					<div class="player__play">
+						<img class="player__play_front" src="assets/play.png" alt="play-pause">
+						<div class="player__play_back"></div>
+						<div class="player__play_round"></div>
+					</div>
+					<div class="player__next">
+						<img class="player__next_front" src="assets/next.png" alt="next">
+						<div class="player__previous_next_back"></div>
+						<div class="player__previous_next_round"></div>
+					</div>
+				</div>
+				<div class="player__control_track">
+					<div class="player__progress">
+						<div class="player__progress_current"></div>
+					</div>
+					<p class="player__progress_timestamp player__progress_left">0:00</p>
+					<p class="player__progress_timestamp player__progress_right">3:54</p>
+				</div>
+				<div class="player__control_text">
+					<div>
+						<h3 class="player__artist">Monkey Doo</h3>
+						<p class="player__songname">People are strange</p>
+					</div>
+					<div class="player__control_adds">
+						<img class="player__control_random opacity" src="assets/random-blue.png" title="randomize">
+						<label class="player__control_add" for="file" title="add new files"> +
+							<input id="file" type="file" onchange="addMusic(this)" multiple>
+						</label>
+						<img class="player__control_list" src="assets/list-blue.png" title="playlist">
+					</div>
+				</div>
+			</div>
+			<div class="player__playlist">
+				<ol class="songs_list"></ol>
+				<p class="player__playlist_close nodisplay">+</p>
+			</div>
+		</div>
+	</section>
+</body>
+<script type="text/javascript" src="jsmediatags.min.js"></script>
+<script type="text/javascript" src="script.js"></script>
+</html>
