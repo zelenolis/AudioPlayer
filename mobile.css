@@ -365,6 +365,9 @@
 	.faq p {
 		font-size: 0.8rem;
 	}
+	.player__previous, .player__play, .player__next {
+		scale: 0.65;
+	}
 	.player__control_buttons {
 		row-gap: 0;
 	}
