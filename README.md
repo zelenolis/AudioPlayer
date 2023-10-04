@@ -8,4 +8,4 @@ Thanks to the robust ['JS MediaTags'](https://github.com/aadsm/jsmediatags) inte
 Join me for exciting new projects!
 <br>
 Screenshot:  
-![screenshot]([/path/to/image.png](https://github.com/zelenolis/AudioPlayer/blob/main/assets/screenshot.JPG?raw=true)https://github.com/zelenolis/AudioPlayer/blob/main/assets/screenshot.JPG?raw=true "screenshot")
+![screenshot](https://raw.githubusercontent.com/zelenolis/AudioPlayer/main/assets/screenshot.JPG "screenshot")
