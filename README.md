@@ -1,7 +1,8 @@
 # AudioPlayer
 
-
-<p>Hello!  
+Deploy link: https://zelenolis.github.io/AudioPlayer/index.html
+---
+<p>Hello!<br>  
 This is my personal audio player pet project.</p>
 
 <p>This project offers a curated selection of free music, but you can add your own MP3 files to tailor your playlist.
