@@ -1,4 +1,4 @@
-# AudioPlayer
+# AudioPlayer pet-project
 
 ##### Deploy link: https://zelenolis.github.io/AudioPlayer/index.html
 ___
